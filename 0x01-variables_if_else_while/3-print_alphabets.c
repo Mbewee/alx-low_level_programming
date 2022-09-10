@@ -1,7 +1,7 @@
 
  * File: 10-print_comb2.c
  *
- */
+ *
 
 #include <stdio.h>
 
