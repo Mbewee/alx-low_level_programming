@@ -1,2 +1,1 @@
-#!/bin/bash
-gcc –E –o c $CFILE
+#!/bin/bash\ngcc -E $CFILE -o c
