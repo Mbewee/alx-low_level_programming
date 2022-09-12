@@ -14,37 +14,30 @@
  * Return: 0
  */
 int main(void)
-{
+
 	int i, j;
 
 	for (i = 0; i < 100; i++)
 	{
-		a = i / 10; /* doubles fnum*/
-		b = i % 10; /* singles fnum*/
-
-		for (j =0; j < 100; j++)
+		for (j = 0; j < 100; j++)
 		{
-			c = j / 10; /* doubles snum*/
-			d = j % 10; /* singles snum*/
-
 			if (i < j)
 			{
-				putchar((I / 10);
-				putchar(a + '0');
-				putchar(32);
-				putchar(c + '0');
-				putchar(d + '0');
-
-				if (!(a == 9 && b == 8))
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(' ');
+				putchar((j / 10); + 48);
+				putchar((j % 10); + 48);
+				if (i != 98 || j != 99)
 				{
-					putchar(44);
-					putchar(32);
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
-}
+
 
 
