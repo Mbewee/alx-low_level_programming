@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int 0 = 0;
+	int c = 0;
 	int f_d;
 	int m_d;
 	int l_d;
