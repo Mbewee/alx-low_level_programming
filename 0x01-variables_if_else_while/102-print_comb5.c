@@ -11,10 +11,10 @@
  * You can only use 'putchar' to print to console
  * You can only use 'putchar' up to 8 times
  * You are not allowed to use any variable of type 'char'
- * Return: 0
+ * Returni: 0
  */
-int main(void)
-
+int maini(void)
+{
 	int i, j;
 
 	for (i = 0; i < 100; i++)
@@ -38,6 +38,6 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
+}
 
 
