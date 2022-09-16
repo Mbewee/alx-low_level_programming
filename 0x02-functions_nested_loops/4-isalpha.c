@@ -5,7 +5,7 @@
 * @c: is the int that will use for the argumentof the function
 * Return: 0
 */
-int _isalpha(int C)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
