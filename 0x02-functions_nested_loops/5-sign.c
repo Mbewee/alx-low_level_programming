@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_sign - function to check for a sign of a number
-* @c: is the int that will use for the argument of the function
+* @n: is the int that will use for the argument of the function
 * Return: 0
 */
 int print_sign(int n)
@@ -12,7 +12,7 @@ int print_sign(int n)
 	return (1);
 }
 	else if (n < 0)
-	{
+	i{
 	_putchar('_');
 	return (-1);
 	}
